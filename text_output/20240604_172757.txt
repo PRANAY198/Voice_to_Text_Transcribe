@@ -1,0 +1,45 @@
+Speaker A [00:00:00 - 00:00:09]: That page will be designed either like we can use what we can use for that. For the UI.
+Speaker B [00:00:10 - 00:00:37]: Actually, for the. Actually we are given the project like audio to test. So for that project I have used like Streamlit UI. It. Streamlit UI was. It is an open source UI. So apart part streamlit UI. There is another UI like a flags. So there are two types for the UI, like streamlit and flask.
+Speaker A [00:00:39 - 00:00:40]: Okay. Flask.
+Speaker B [00:00:40 - 00:00:41]: Yes.
+Speaker A [00:00:43 - 00:00:47]: And you can code for that using which language?
+Speaker B [00:00:47 - 00:00:48]: Python only.
+Speaker A [00:00:50 - 00:01:02]: So from a DevOps perspective. Wishnote, how does it sound to you? Like if you have to create the process manually for the.
+Speaker B [00:01:03 - 00:01:04]: It would be easy.
+Speaker C [00:01:06 - 00:01:12]: No, it would be easy, sanjay. Like once the process is done, doing CI CD or creating the pipelines would be easier.
+Speaker A [00:01:15 - 00:02:10]: Yeah. So I'm thinking this is, this is more like ETL component will be done through SQLs. So we have to design the non ETL process. Sorry, non SQL process through scripting. We can use Python and we can use like regular. How do you create like let's say file watcher job? It's just checking for a file availability. What do you do for that in scripting? Rohit?
+Speaker D [00:02:10 - 00:02:10]: Yeah.
+Speaker E [00:02:11 - 00:02:15]: Yes, Sanjay. So we can look for a file.
+Speaker A [00:02:17 - 00:02:20]: You're just putting some sort of a command, right?
+Speaker E [00:02:20 - 00:02:21]: Yes.
+Speaker A [00:02:21 - 00:02:22]: Checking for the file.
+Speaker E [00:02:22 - 00:02:38]: Yeah. Yes, Sanjay. Yeah. We can use some in a for loop. We can check for the file if it is existing or not. If it is existing, if you receive some value, then we can process the data. Yeah. If it receives any value we can using in the script. Yeah, we can.
+Speaker A [00:02:39 - 00:02:43]: The next step is from my side is to get access.
+Speaker E [00:02:43 - 00:02:44]: Yeah.
+Speaker A [00:02:45 - 00:03:00]: And get the credentials to access this pipeline with an assumption that will not change anything. We're just looking at the pipeline and documenting the reverse engineering the process.
+Speaker E [00:03:01 - 00:03:24]: So Sanjay, one question now, Sanjay, now we got the access and we have analyzed complete flow design ETL loading. And then as you said, so for file watcher, we are using some script and completely we are going to develop the data flow in a sequel, right, Sanjay. So we are going to use sequel.
+Speaker A [00:03:25 - 00:03:26]: Consider that as a script.
+Speaker E [00:03:26 - 00:03:28]: Okay. Complete script. Okay.
+Speaker D [00:03:28 - 00:03:29]: Okay.
+Speaker A [00:03:30 - 00:03:31]: It's a program.
+Speaker D [00:03:31 - 00:03:32]: Yeah.
+Speaker E [00:03:32 - 00:03:33]: Yes, Sanjay, got it.
+Speaker A [00:03:33 - 00:03:35]: So you can program, right?
+Speaker E [00:03:35 - 00:03:35]: Yes.
+Speaker A [00:03:35 - 00:03:45]: So whatever you develop, you will develop SQL based operations in SQL, right?
+Speaker E [00:03:45 - 00:03:47]: Yes. Yeah.
+Speaker A [00:03:47 - 00:04:02]: And non SQL is processed in a script. So you have to create this as a application. Think of it as like creating an ETL data flow without having any tool. How would you do that?
+Speaker E [00:04:03 - 00:04:04]: Okay, got it.
+Speaker D [00:04:04 - 00:04:05]: Okay.
+Speaker E [00:04:13 - 00:04:18]: Got it, Sanjay. Got it. We need to replicate through SQL all the design. Yeah.
+Speaker A [00:04:22 - 00:04:23]: Program it.
+Speaker E [00:04:24 - 00:04:26]: Program I mean. Yes, I got it, Sanjay. Yeah.
+Speaker A [00:04:30 - 00:04:37]: Using scripting, using whatever, all the stuff that is running now, you have to program it and run as a program.
+Speaker E [00:04:38 - 00:04:40]: Yes. Got it, Sanjay.
+Speaker D [00:04:40 - 00:04:41]: Yeah.
+Speaker A [00:04:48 - 00:05:14]: So there is, there is a tool based development, and then there's a program based development. So this one will be creating a program based development. It's like how, how you code. You'll be recording here.
+Speaker D [00:05:16 - 00:05:22]: Yes. Okay.
+Speaker A [00:05:27 - 00:05:37]: All right. Okay. We'll check on the access. Thanks.
+Speaker D [00:05:37 - 00:05:37]: Yeah.
+Speaker E [00:05:38 - 00:05:39]: Thank you, Sanjay.
+Speaker B [00:05:39 - 00:05:39]: Thank you, Sanjay.
