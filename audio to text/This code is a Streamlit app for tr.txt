@@ -1,0 +1,33 @@
+This code is a Streamlit app for transcribing audio files using the AssemblyAI transcription service. Let's break down the main components and their functionalities:
+
+Imports:
+
+streamlit is imported as st for creating the web application.
+assemblyai is imported to interact with the AssemblyAI API.
+os is imported for interacting with the operating system.
+API Key:
+
+The AssemblyAI API key is set using aai.settings.api_key.
+Transcription Functions:
+
+transcribe_audio(audio_path): Transcribes the audio file located at audio_path using the AssemblyAI service. It also sets a configuration for transcription, enabling speaker labels.
+upload_audio_to_assemblyai(audio_path): This function is a placeholder. In a real scenario, it might upload the audio file to AssemblyAI, but in this code, it simply returns the provided audio_path.
+format_timestamp(ms): Formats a timestamp from milliseconds to HH:MM
+format.
+Main Function (main(audio_path)):
+
+Sets up directories for storing audio and text output.
+Transcribes the audio using transcribe_audio.
+Writes the transcription to a text file, including speaker labels and timestamps.
+Saves the original and transcribed audio files to the respective directories.
+Returns the transcription.
+Main App Function (main_app()):
+
+Creates a Streamlit app titled "Audio Transcription App".
+Provides a file uploader for uploading audio files.
+Displays the uploaded audio file.
+When the "Transcribe" button is clicked, it triggers the transcription process, displays the transcription, and saves the transcribed text and audio files.
+Conditional Execution:
+
+if __name__ == "__main__":: This block ensures that main_app() is only executed if this script is run directly, not when it's imported as a module into another script.
+Overall, this code creates a simple web application where users can upload audio files, transcribe them using AssemblyAI, and view the transcription along with speaker labels and timestamps.
